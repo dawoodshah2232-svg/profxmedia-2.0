@@ -66,6 +66,8 @@ section{scroll-margin-top:96px}
 .brand{display:inline-flex;align-items:center}
 .logo-chip{display:inline-flex;align-items:center}
 .logo-chip img{height:36px;width:auto}
+html[data-theme="dark"] .logo-chip img{filter:brightness(0) invert(1)}
+html[data-theme="light"] .logo-chip img{filter:none}
 .foot-brand .logo-chip img{height:46px}
 .nav-links{display:flex;gap:34px;font-size:14px;color:var(--dim)}
 .nav-links a{position:relative;padding:6px 0;transition:color .2s}
